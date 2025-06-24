@@ -8,13 +8,13 @@ The app allows users to enter a URL or text, and instantly generates a QR code u
 
 ## 🌟 Features
 
-- ✅ Enter any text or URL
-- 🔲 Generate a QR code instantly
-- ⚠️ Handles empty inputs
+- Enter any text or URL
+- Generate a QR code instantly
+- Handles empty inputs
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 
 - How to use HTML input and button elements
 - Writing interactive JavaScript with `addEventListener`
@@ -33,7 +33,7 @@ The app allows users to enter a URL or text, and instantly generates a QR code u
 
 ---
 
-## 🚀 Run the Project
+## Run the Project
 
 1. Download or clone the repository:
    ```bash
