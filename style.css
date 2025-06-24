@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+} 
+
+.container {
+    height: 60vh;
+    width: 30vw;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    backdrop-filter: blur(3px); 
+    box-shadow: 0 0 20px #000;
+}
+
+input {
+    margin: 1rem;
+    padding: 1rem;
+    height: 7%;
+    font-size: 1.2rem;
+    width: 80%;
+    border: none;
+    border-radius: 0.7rem;
+}
+
+button {
+    padding: 1rem;
+    background-color: #ccc;
+    margin: 0 0 1rem 0;
+    border-radius: 0.8rem;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out 0.5ms;
+}
+
+img {
+    height: 40%;
+    margin: 5px 0 0 0;
+}
+
+button:hover {
+    background-color: navajowhite;
+}
+
+button:disabled:hover {
+    background-color: #ccc;
+}
+
+::placeholder {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: 60vh;
+        width: 65vw;
+    }
+}
+
+@media screen and (768px <= width <= 1024px) {
+    .container {
+        height: 60vh;
+        width: 60vw;
+    }
+}
+
+@media screen and (1024px <= width <= 1440px) {
+    .container {
+        padding: 2rem;
+        height: 70vh;
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        padding: 2rem;
+        height: 80vh;
+        width: 40vw;
+    }
+
+    button {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    img {
+        height: 50%;
+    }
+}
